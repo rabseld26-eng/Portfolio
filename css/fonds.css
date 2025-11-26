@@ -1,0 +1,29 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700&family=Roboto+Mono:wght@400;700&display=swap');
+
+body {
+    font-family: 'inter', sans-serif;
+    font-size: 16px;
+    line-height: 1.6;
+    color:black;
+    background-color: var(--colour-lightgreen);
+}
+
+h1, h2, h3, h4, h5, h6 {
+    font-family: 'inter', sans-serif;
+    font-weight: 700;
+    line-height: 1.2;
+    margin-bottom: 0.5em;
+}
+
+.nav-list, .nav {
+    font-family: 'inter', sans-serif;
+    font-weight: 600;
+    text-transform: uppercase;
+    letter-spacing: 3px;
+    margin-right: 20px;
+    list-style: none;
+    display: flex;
+    gap: 20px;
+    padding: 0;
+    margin: 0;
+} 
