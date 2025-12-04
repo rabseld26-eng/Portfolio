@@ -54,16 +54,6 @@ footer {
     
 }
 
-form label {
-    font-weight: 500;
-    color: var(--colour-lightgreen)
-}
-
-form input, form textarea {
-    border-radius: 1;
-    border: 1px solid #52CCEB;
-}
-
 .logo {
     max-height: 60px;
 }
