@@ -28,18 +28,19 @@ a:hover {
 }
 
 header {
-    background-color: var(--colour-lightblue);
     color: var(--colour-lightgreen);
 }
-
-nav .nav-link{
+nav{
+    background-color: var(--colour-lightblue);
+}
+.nav-link{
     font-weight: 500;
     transition: color 0.3s ease;
     color: var(--colour-lightgreen);
 
 }
 
-nav .nav-link:hover {
+.nav-link:hover {
     color: var(--colour-lightgreen)
 }
 
@@ -61,8 +62,4 @@ footer {
 html {
   scroll-behavior: smooth;
 }
-aside {
-    position: absolute;
-    right: 20px;
-    top: 150px;
-}
+
